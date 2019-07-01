@@ -1,0 +1,97 @@
+.members-container {
+    background-color: white;
+}
+
+.members-container .container {
+    margin: 0 15px;
+    padding: 0;
+}
+
+.section-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: #099d8d;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.member-list {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.item-members {
+    margin-top: 25px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.member-container-photo {
+    /*lo usaremos cuando el contenedor flx
+    sea en row y tengamos que alinear los items */
+}
+
+.member-photo {
+    border-radius: 4px;
+    border: solid 5px lightgrey;
+}
+
+.member-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.member-description {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.socialmedia-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+}
+
+.icon-link {
+    color: #099d8d;
+}
+
+.link-link:visited: {
+    color: #099d8d;
+}
+
+.social-icon-dot {
+    color: #099d8d;
+    margin: 0 8px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    line-height: 24px;
+}
+
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/

@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+}
+
+.hero__container {
+    background: url("../images/fondo02.jpg") center bottom no-repeat;
+    background-size: cover;
+    height: 421px;
+}
+
+.hero__container .container {
+    margin: 0 15px;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.hero__title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 15px;
+    transform: translateY(50%);
+}
+
+@media all and (min-width: 768px) {
+    .hero__container .container {
+        margin: 0 45px;
+    }
+    .hero__title {
+        transform: translateY(0);
+        width: auto;
+        max-width: 441px;
+        padding: 15px 30px;
+        opacity: 0.8;
+        text-align: left;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .hero__container {
+        height: 550px;
+    }
+    .hero__container .container {
+        margin: 0 auto;
+        width: 924px;
+    }
+    .hero__title {
+        font-size: 24px;
+    }
+}

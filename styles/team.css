@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+}
+
+.team__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.team__container .container {
+    margin: 0 15px;
+}
+
+.team__container h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: medium;
+    font-size: 24px;
+    color: #14d9c4;
+    margin: 45px 0px 15px 0;
+    position: relative;
+}
+
+#team {
+    position: absolute;
+    top: -200px;
+}
+
+.team__triangle {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    transform: translateY(50%) rotate(45deg);
+}
+
+.aside__container {
+    background-color: #b8b8b9;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.aside__container .container {
+    margin: 30px 15px;
+}
+
+.aside__s {
+    margin: 45px 0;
+}
+
+.aside__w {
+    margin: 0 0 45px 0;
+}
+
+.aside__container h3 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 'medium';
+    font-size: 22px;
+    color: #099d8d;
+    margin: 30px 0 15px 0;
+}
+
+.team__container p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: 'regular';
+    font-size: 16px;
+    color: #54585a;
+    margin: 0px;
+    text-align: center;
+}
+
+@media all and (min-width: 768px) {
+    .team__container .container {
+        margin: 0 45px;
+    }
+    .aside__container .container {
+        margin: 45px 45px 60px 45px;
+        display: flex;
+    }
+    .aside__s {
+        margin: 0 15px 0 0;
+        width: 50%;
+    }
+    .aside__w {
+        margin: 0 0 0 15px;
+        width: 50%;
+    }
+    .team__container h2 {
+        margin: 45px 0px 15px 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .team__container .container {
+        margin: 45px auto 60px auto;
+        width: 924px;
+        display: flex;
+        justify-content: center;
+    }
+    .description__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 601px;
+    }
+    .aside__container .container {
+        margin: 45px auto 60px auto;
+        width: 924px;
+    }
+    .aside__s {
+        margin: 0 22.5px 0 0;
+        width: 50%;
+    }
+    .aside__w {
+        margin: 0 0 0 22.5px;
+        width: 50%;
+    }
+}

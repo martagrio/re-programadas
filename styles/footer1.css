@@ -1,0 +1,137 @@
+.footer__box {
+    border-top: 1px solid #b8b8b9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.footer__box-copyright {
+    font-family: OpenSans;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #b8b8b9;
+    text-align: center;
+}
+
+.footer__nav-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer__nav {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    opacity: 0, 75;
+    cursor: default;
+}
+
+.footer__list-items {
+    font-family: OpenSans;
+    font-weight: semi bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #54585a;
+    list-style-type: none;
+    text-decoration: none;
+    cursor: default;
+}
+
+.footer__box-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__img {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+@media all and (min-width:768px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 0 45px;
+        height: 45px;
+    }
+    .footer__nav-box {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer__nav {
+        align-items: none;
+        flex-wrap: wrap;
+    }
+    .footer__box-copyright {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        height: 20px;
+        margin: 0;
+    }
+    .footer__box-nav {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 45px;
+        flex-wrap: wrap;
+        height: 90px;
+    }
+    .footer__list-items {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0 45px;
+        flex-wrap: wrap;
+    }
+    .footer__box-logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 45px;
+        flex-wrap: wrap;
+    }
+    .footer__img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .footer__box-copyright {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer__box-nav {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .footer__list-items {
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .footer__box-logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+/*
+.footer_img{
+    max-width: 116px;
+
+}*/
