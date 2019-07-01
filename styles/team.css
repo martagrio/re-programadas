@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 
-#team {
+.span__team {
     position: absolute;
     top: -200px;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .aside__container {
-    background-color: #b8b8b9;
+    background-color: rgba(184, 184, 185, 0.2);
     width: 100%;
     text-align: center;
     align-items: center;
