@@ -18,7 +18,8 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgba(9, 157, 142, 0.95);
+    /*quitar para que se vea la opacidad
+    background-color: rgba(9, 157, 142, 0.95);*/
 }
 
 .header__title {
