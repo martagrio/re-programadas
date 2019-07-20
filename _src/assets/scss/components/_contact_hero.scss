@@ -1,0 +1,17 @@
+.hero__container {
+    background: url("../images/fondo06.jpg") center bottom no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.hero__container .container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+@media all and (min-width: 1200px) {
+    .hero__container {
+        height: 400px;
+    }
+}

@@ -1,0 +1,37 @@
+<main class="page__main">
+    <div class="container">
+
+        <h2 class="main__tittle">Contacto</h2>
+        <p class="main__description">Queremos conocer tus proyectos e inquietudes. <br>¿Estas listo para sumar nuevas profesionales Re-programadas a tu equipo?</p>
+        <p class="description__aclaration">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</p>
+
+        <form method="POST" action="https://formspree.io/matah.maria@gmail.com" class="main__form">
+
+            <div class="form__name">
+                <label for="completename">nombre completo <span class="asterisk">*</span></label>
+                <input class="field" id="completename" type="text" name="name" placeholder="Nombre..." required/>
+            </div>
+
+            <div class="container__email-tel">
+                <div class="form__email">
+                    <label for="email">Email <span class="asterisk">*</span></label>
+                    <input class="field" id="email" type="email" name="email" placeholder="nombre.apellido@mail.com" required>
+                </div>
+
+                <div class="form__tel">
+                    <label for="telephone">Teléfono</label>
+                    <input class="field" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789">
+                </div>
+            </div>
+            <div class="form__comments">
+                <label for="comments">Mensaje <span class="asterisk">*</span></label>
+                <textarea class="field" id="comments" name="comments" rows="8" cols="80" placeholder="¿Qué necesitas?" required></textarea>
+            </div>
+
+            <div class="form__submit">
+                <input class="field" type="submit" value="ENVIAR">
+            </div>
+        </form>
+
+    </div>
+</main>

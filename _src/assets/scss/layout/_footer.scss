@@ -1,0 +1,73 @@
+.footer__container {
+    border-top: solid 1px #b8b8b9;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list__item {
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #54585a;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #54585a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__link:visited {
+    text-decoration: none;
+    color: #54585a;
+}
+
+.logo {
+    width: 115px;
+    margin: 30px 0 45px 0;
+    box-sizing: border-box;
+}
+
+.copyright {
+    font-family: 'Open Sans', sans-serif;
+    color: #b8b8b9;
+    font-size: 14px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 768px) {
+    .footer__container .container {
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25% 50%; ;
+        grid-template-areas: 'copy menu' 'adalab menu';
+        box-sizing: border-box;
+    }
+    .copyright {
+        grid-area: copy;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .footer__list {
+       grid-area: menu;
+        text-align: right;
+    }
+    .logo {
+        grid-area: adalab;
+        text-align: left;
+        margin: 0;
+    }
+}

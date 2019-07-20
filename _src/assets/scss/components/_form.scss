@@ -1,0 +1,149 @@
+/*introduction*/
+
+.page__main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__tittle {
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    color: #099d8d;
+    margin: 30px 0px 15px;
+    font-weight: 500px;
+    font-style: normal;
+}
+
+.main__description {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: normal;
+    color: #54585a;
+    line-height: 1.5;
+}
+
+.description__aclaration {
+    font-size: 12px;
+    font-family: 'Rubik';
+    color: #54585a;
+    margin-bottom: 54px;
+}
+
+.description__aclaration .asterisk {
+    color: #14d9c4;
+}
+
+
+/*form*/
+
+.field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.main__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    color: #54585a;
+    font-size: 14px;
+}
+
+.main__form .asterisk {
+    color: #14d9c4;
+}
+
+.form__name {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form__name .field {
+    height: 45px;
+}
+
+.form__email {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form__email .field {
+    height: 45px;
+}
+
+.form__tel {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form__tel .field {
+    height: 45px;
+}
+
+.form__comments {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.form__submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__submit .field {
+    margin: 30px 0 60px;
+    background-color: #099d8d;
+    color: white;
+    height: 45px;
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+@media all and (min-width:768px) {
+    /*main form*/
+    .form__submit {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .form__submit .field {
+        width: 206px;
+        height: 45px;
+        padding: 0px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .container__email-tel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .form__email {
+        width: 100%;
+        margin-right: 45px;
+    }
+    .form__tel {
+        width: 100%;
+    }
+}

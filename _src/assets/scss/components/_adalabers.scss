@@ -1,0 +1,176 @@
+/* CSS SECCIÓN ADALABERS */
+
+@media all and (min-width:1200px) {
+    .adalabers .container {
+        text-align: center;
+    }
+}
+
+.adalabers__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: #099d8d;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 30px;
+    position: relative;
+}
+
+.span__adalabers {
+    position: absolute;
+    top: -150px;
+}
+
+.adalabers__grid {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (min-width:768px) {
+    .adalabers__grid {
+        text-align: left;
+    }
+}
+
+.adalabers__grid-item {
+    margin-top: 45px;
+}
+
+.adalabers_grid-item :first-child {
+    margin-top: 0px;
+}
+
+@media all and (min-width:768px) {
+    .box__1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 45px;
+    }
+    .box__2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-bottom: 45px;
+        text-align: right;
+    }
+}
+
+.adalaber__photo {
+    border-radius: 4px;
+    border: solid 5px lightgrey;
+    width: 180px;
+    height: 180px;
+}
+
+@media all and (min-width:768px) {
+    .adalaber__photo {
+        width: 206px;
+        height: 206px;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .adalaber__photo {
+        width: 278px;
+        height: 278px;
+    }
+}
+
+@media all and (min-width:768px) {
+    .adalaber__content {
+        padding: 0 30px;
+    }
+}
+
+.adalaber__name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.adalaber__description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #54585a;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.adalaber__rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.adalaber__rrss-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0px 0px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+@media all and (min-width:768px) {
+    .adalaber__rrss {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+@media all and (min-width:768px) {
+    .adalaber__rrss-left {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+.adalaber__rrss-item {
+    list-style: none;
+    color: #099d8d;
+    margin: 0px;
+    padding: 0px 4px;
+    line-height: 30px;
+}
+
+.adalaber__rrss-link {
+    text-decoration: none;
+    color: #099d8d;
+    margin: 0;
+}
+
+.adalaber__rrss-link:visited {
+    text-decoration: none;
+    color: #099d8d;
+    margin: 0;
+}
+
+.adalaber__photo {
+    transition: transform ease .4s, border-radius ease .4s;
+    &:hover {
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+}
