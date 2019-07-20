@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Rubik:500&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:500&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1baa5ed16a.js"></script>
+        <link rel="stylesheet" href="assets/css/contact.css">
+        <title>Contacto</title>
+    </head>
+    
+    <body class="page">
+        <!-- HEADER -->
+        <header class="page__header">
+            <div class="container">
+                 <h1 class="header__tittle">Re-programadas</h1>
+
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="menu__item"> <a class="link" href="index.html#team">equipo</a>
+
+                        </li>
+                        <li class="menu__item"> <a class="link" href="index.html#adalabers">quiénes somos</a>
+
+                        </li>
+                        <li class="menu__item"> <a class="link" href="contact.html">contacto</a>
+
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- MAIN -->
+        <main class="main_contact">
+            <!-- HERO -->
+            <section class="hero__container">
+                <div class="container"></div>
+            </section>
+            <!-- FORM -->
+            <main class="page__main">
+                <div class="container">
+                     <h2 class="main__tittle">Contacto</h2>
+
+                    <p class="main__description">Queremos conocer tus proyectos e inquietudes.
+                        <br>¿Estas listo para sumar nuevas profesionales Re-programadas a tu equipo?</p>
+                    <p
+                    class="description__aclaration">Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.</p>
+                        <form
+                        method="POST" action="https://formspree.io/matah.maria@gmail.com" class="main__form">
+                            <div class="form__name">
+                                <label for="completename">nombre completo <span class="asterisk">*</span>
+
+                                </label>
+                                <input class="field" id="completename" type="text" name="name" placeholder="Nombre..."
+                                required/>
+                            </div>
+                            <div class="container__email-tel">
+                                <div class="form__email">
+                                    <label for="email">Email <span class="asterisk">*</span>
+
+                                    </label>
+                                    <input class="field" id="email" type="email" name="email" placeholder="nombre.apellido@mail.com"
+                                    required>
+                                </div>
+                                <div class="form__tel">
+                                    <label for="telephone">Teléfono</label>
+                                    <input class="field" id="telephone" type="tel" name="telephone"
+                                    placeholder="Ej: 123456789">
+                                </div>
+                            </div>
+                            <div class="form__comments">
+                                <label for="comments">Mensaje <span class="asterisk">*</span>
+
+                                </label>
+                                <textarea class="field" id="comments" name="comments" rows="8" cols="80"
+                                placeholder="¿Qué necesitas?" required></textarea>
+                            </div>
+                            <div class="form__submit">
+                                <input class="field" type="submit" value="ENVIAR">
+                            </div>
+                            </form>
+                </div>
+            </main>
+            <!-- FOOTER -->
+            <footer class="footer__container">
+                <div class="container">
+                     <h4 class="copyright">re-programadas © 2019</h4>
+
+                    <nav class="footer__menu">
+                        <ul class="footer__list">
+                            <li class="list__item"> <a href="index.html#team" class="footer__link">
+                        equipo
+                    </a>
+
+                            </li>
+                            <li class="list__item"> <a href="index.html#adalabers" class="footer__link">
+                        quiénes somos
+                    </a>
+
+                            </li>
+                            <li class="list__item"> <a href="contact.html" class="footer__link">
+                        contacto
+                    </a>
+
+                            </li>
+                        </ul>
+                    </nav>
+                    <img class="logo" src="assets/images/logo-adalab.png" alt="logo de Adalab">
+                </div>
+            </footer>
+    </body>
+
+</html>
